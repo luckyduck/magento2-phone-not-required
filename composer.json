@@ -1,0 +1,19 @@
+{
+  "name": "codex/phonenotrequired",
+  "description": "Magento2 PhoneNotRequired",
+  "authors": [
+    {
+      "name": "code-x",
+      "email": "magento@code-x.de"
+    }
+  ],
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Codex\\PhoneNotRequired\\": ""
+    }
+  }
+}
