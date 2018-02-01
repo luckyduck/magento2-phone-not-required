@@ -1,0 +1,19 @@
+{
+    "name": "codex/magento2_phone-not-required",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/module-customer": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codex\\PhoneNotRequired\\": ""
+        }
+    }
+}
